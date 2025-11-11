@@ -1,0 +1,12 @@
+package com.Web.Dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.Web.Model.Product;
+
+@Repository
+public interface ProductDao extends JpaRepository<Product, Integer>{
+
+	Product findById(int id);
+}
