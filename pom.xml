@@ -81,7 +81,7 @@
 	</dependencies>
 
 	<build>
-		<fileName>webdeploy-api</fileName>
+		<finalName>Amez-Mart</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
